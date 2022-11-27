@@ -26,7 +26,7 @@ export class NavmeshTest {
     const box = await CS1.scene.add("a-box");
     console.log("box");
     console.log(box);
-    box?.setAttribute("color", "yellow");
+    box?.setAttribute("color", "blue");
     box?.object3D.position.set(0, 1, -5);
     
     const map = document.createElement("a-gltf-model");

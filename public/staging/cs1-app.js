@@ -9,7 +9,7 @@
             const box = await CS1$1.scene.add("a-box");
             console.log("box");
             console.log(box);
-            box?.setAttribute("color", "yellow");
+            box?.setAttribute("color", "blue");
             box?.object3D.position.set(0, 1, -5);
             const map = document.createElement("a-gltf-model");
             map.setAttribute("src", "https://cdn.glitch.global/a0f42b6b-5748-4de7-8b7f-f072c068f79e/MoonX_Stage1.glb?v=1653535020925");

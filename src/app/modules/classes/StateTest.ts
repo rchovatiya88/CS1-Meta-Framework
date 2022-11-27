@@ -28,7 +28,7 @@ export class StateTest {
     const box = await CS1.scene.add("a-box");
     console.log("box");
     console.log(box);
-    box?.setAttribute("color", "yellow");
+    box?.setAttribute("color", "red");
     box?.object3D.position.set(0, 1, -5);
 
     //add a-cursor as child of camera
